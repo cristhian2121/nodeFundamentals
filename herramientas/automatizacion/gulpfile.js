@@ -14,4 +14,5 @@ gulp.task('serve', function(cb) {
         }));
 });
 
+// multiple task in serie
 gulp.task('default', gulp.series('build', 'serve'));

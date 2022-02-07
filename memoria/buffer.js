@@ -1,5 +1,5 @@
-// let buffer = Buffer.alloc(4);
-// let buffer = Buffer.from([1, 2, 5]);
+// let buffer = Buffer.alloc(4); // <Buffer 00 00 00 00>
+// let buffer = Buffer.from([1, 2, 5]); // <Buffer 01 02 03>
 let buffer = Buffer.from('Hola');
 
 // console.log(buffer);

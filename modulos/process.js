@@ -16,6 +16,8 @@ setTimeout(() => {
 }, 0);
 
 process.on('uncaughtException', (err, origen) => {
+    // uncaughtException: exception no catched
+    // uncaughtRejection: promises rejected no catched
     console.error('Vaya se nos ha olvidado capturar un error');
     setTimeout(() => {
         console.log('Esto viene desde las excepciones');
